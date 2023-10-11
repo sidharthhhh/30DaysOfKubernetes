@@ -1,35 +1,35 @@
-# Day 19: Multi-Cluster Management
+# Day 19: Scaling and Updates
 [![LinkedIn](https://img.shields.io/badge/Connect%20with%20me%20on-LinkedIn-blue.svg)](https://www.linkedin.com/in/aman-devops/)
 [![GitHub](https://img.shields.io/github/stars/AmanPathak-DevOps.svg?style=social)](https://github.com/AmanPathak-DevOps)
 [![GitHub stars](https://img.shields.io/github/stars/AmanPathak-DevOps/30DaysOfKubernetes)](https://github.com/AmanPathak-DevOps/30DaysOfKubernetes/stargazers)
 
-Welcome to Day 19 of the Kubernetes 30-Day Learning Challenge! 🚀 Today, you'll explore tools and techniques for managing multiple Kubernetes clusters efficiently.
+Welcome to Day 19 of the Kubernetes 30-Day Learning Challenge! 🚀 Today, you'll explore strategies for scaling your applications and performing rolling updates in Kubernetes.
 
 ## 📋 Learning Objectives
 
 By the end of today, you will:
-- **Multi-Cluster Strategy**: Understand the importance of multi-cluster strategies in Kubernetes.
-- **Tools**: Explore tools and techniques for managing and orchestrating multiple Kubernetes clusters.
+- **Scaling and Updates**: Understand how to scale your applications and perform rolling updates in Kubernetes.
 
 ## 🚀 Let's Get Started
 
-### Task 1: Multi-Cluster Strategies
-- Learn about the benefits and use cases of managing multiple Kubernetes clusters. Explore strategies like multi-region and multi-cloud deployments.
+### Task 1: Horizontal Pod Autoscaling
+- Dive into [Horizontal Pod Autoscaling (HPA)](https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/) to learn how Kubernetes can automatically adjust the number of replica Pods based on resource usage.
 
-### Task 2: Kubernetes Federation
-- Dive into Kubernetes Federation and understand how it helps manage multiple clusters as a single entity.
+### Task 2: Manual Scaling
+- Experiment with manually scaling your application by increasing or decreasing the number of replica Pods using `kubectl`.
 
-### Task 3: Kubectl Contexts
-- Explore the use of `kubectl` contexts to switch between and manage different Kubernetes clusters.
+### Task 3: Rolling Updates
+- Explore [Kubernetes Rolling Updates](https://kubernetes.io/docs/tutorials/stateful-application/basic-stateful-set/#updating-pods) to understand how to update your application without causing downtime.
 
 ### Task 4: Suggested Project
-- Set up multiple Kubernetes clusters in different regions or cloud providers and experiment with managing them using `kubectl` contexts.
+- Take an existing application you deployed on Day 11 and perform a rolling update with a new version of the application.
 
 ## 🌐 Additional Resources
 
-- [Kubernetes Official Documentation - Federation](https://kubernetes.io/docs/concepts/cluster-administration/federation/): Detailed information on Kubernetes Federation.
-- [Kubernetes- MultiCluster Management](https://youtu.be/pohOtvPu_3c?si=d5AqQAsGib3wzSQB)
+- [Kubernetes Official Documentation - Horizontal Pod Autoscaling](https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/): Detailed information on HPA in Kubernetes.
+- [Kubernetes- Horizontal Pod Autoscaling in Hindi](https://youtu.be/hm3jnETOoFo?si=OT2ay0rITn7Mhhsd)
+- [Kubernetes- Horizontal Pod Autoscaling in English](https://youtu.be/uxuyPru3_Lc?si=nCKsBP7L_FlY-2GH)
 
-Managing multiple Kubernetes clusters is essential for scaling your applications and ensuring high availability. Tomorrow, we'll dive into advanced concepts with StatefulSets.
+Scaling and updating applications are crucial aspects of managing production-ready Kubernetes clusters. Tomorrow, we'll dive into multi-cluster management.
 
 [← Previous Day](../Day18/README.md) | [Next Day →](../Day20/README.md)

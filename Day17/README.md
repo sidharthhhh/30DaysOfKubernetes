@@ -1,40 +1,33 @@
-# Day 17: Ingress and Network Policies
+# Day 17: Pod Lifecycle
 [![LinkedIn](https://img.shields.io/badge/Connect%20with%20me%20on-LinkedIn-blue.svg)](https://www.linkedin.com/in/aman-devops/)
 [![GitHub](https://img.shields.io/github/stars/AmanPathak-DevOps.svg?style=social)](https://github.com/AmanPathak-DevOps)
 [![GitHub stars](https://img.shields.io/github/stars/AmanPathak-DevOps/30DaysOfKubernetes)](https://github.com/AmanPathak-DevOps/30DaysOfKubernetes/stargazers)
 
-Welcome to Day 17 of the Kubernetes 30-Day Learning Challenge! 🚀 Today, you'll dive into Ingress and Network Policies, essential components for managing external access to services and controlling network traffic within your Kubernetes cluster.
+Welcome to Day 17 of the Kubernetes 30-Day Learning Challenge! 🚀 Today, you'll dive into the lifecycle of Kubernetes Pods.
 
 ## 📋 Learning Objectives
 
 By the end of today, you will:
-- **Ingress Controllers**: Understand Ingress controllers and how they enable external access to services.
-- **Network Policies**: Learn about Network Policies and their role in securing and controlling network traffic.
+- **Pod Lifecycle**: Understand the various phases and states in the lifecycle of Kubernetes Pods.
 
 ## 🚀 Let's Get Started
 
-### Task 1: Ingress Controllers
-- Explore the [Kubernetes Ingress documentation](https://kubernetes.io/docs/concepts/services-networking/ingress/) to understand Ingress controllers and how to set them up.
+### Task 1: Pod Lifecycle
+- Explore the [Kubernetes Pod Lifecycle documentation](https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/) to learn about the different phases Pods go through, from creation to termination.
+- Understand the significance of each phase and how Pods handle failures and restarts.
 
-### Task 2: Setting Up Ingress
-- Create an Ingress resource for one of your services to allow external access. Test and verify the setup.
+### Task 2: Pod States
+- Study the various states that a Pod can be in, including Pending, Running, Succeeded, Failed, and Unknown.
+- Explore how these states affect application availability and troubleshooting.
 
-### Task 3: Network Policies
-- Dive into [Kubernetes Network Policies](https://kubernetes.io/docs/concepts/services-networking/network-policies/) and learn how to define policies to control traffic between pods.
-
-### Task 4: Implementing Network Policies
-- Create a Network Policy that restricts network traffic between selected pods in your cluster.
-
-### Task 5: Suggested Project
-- Enhance the security of one of your applications by implementing Network Policies to control incoming and outgoing traffic.
+### Task 3: Suggested Project
+- Create a Pod with a simple application and experiment with different scenarios to observe the Pod's lifecycle, such as crashing the application container.
 
 ## 🌐 Additional Resources
 
-- [Kubernetes Official Documentation - Ingress](https://kubernetes.io/docs/concepts/services-networking/ingress/): Detailed information on Kubernetes Ingress.
-- [Kubernetes Official Documentation - Network Policies](https://kubernetes.io/docs/concepts/services-networking/network-policies/): Detailed information on Network Policies.
-- [Kubernetes- Ingress](https://youtu.be/GhZi4DxaxxE?si=sDuGK70lmJWMNyaQ)
-- [Kubernetes- Ingress and Network Policies](https://youtu.be/VF4hpwG_px8?si=3BlAfJ5-r8vuNwzr)
+- [Kubernetes Official Documentation - Pod Lifecycle](https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/): Detailed information on Kubernetes Pod Lifecycle.
+- [Kubernetes Job, Init Container and Pod lifecycle in Hindi](https://youtu.be/BqHAoaXbz1A?si=Fd-mU-jNzaM2Fb7G)
 
-Understanding Ingress and Network Policies is crucial for managing external access and securing your Kubernetes cluster. Tomorrow, we'll explore Kubernetes Services.
+Understanding the Pod lifecycle is essential for managing the availability and reliability of your applications in Kubernetes. Tomorrow, we'll explore Kubernetes namespaces and resource quotas.
 
 [← Previous Day](../Day16/README.md) | [Next Day →](../Day18/README.md)

@@ -1,35 +1,35 @@
-# Day 27: Operators and Helm (Part 1)
+# Day 27: Exploring Amazon EKS (Amazon Elastic Kubernetes Service)
 [![LinkedIn](https://img.shields.io/badge/Connect%20with%20me%20on-LinkedIn-blue.svg)](https://www.linkedin.com/in/aman-devops/)
 [![GitHub](https://img.shields.io/github/stars/AmanPathak-DevOps.svg?style=social)](https://github.com/AmanPathak-DevOps)
 [![GitHub stars](https://img.shields.io/github/stars/AmanPathak-DevOps/30DaysOfKubernetes)](https://github.com/AmanPathak-DevOps/30DaysOfKubernetes/stargazers)
 
-Welcome to Day 27 of the Kubernetes 30-Day Learning Challenge! 🚀 Today, you'll begin exploring Kubernetes Operators, a powerful tool for managing complex applications.
+Welcome to Day 27 of the Kubernetes 30-Day Learning Challenge! 🚀 Today, you'll get hands-on experience with Amazon Elastic Kubernetes Service (Amazon EKS), Amazon's managed Kubernetes service.
 
 ## 📋 Learning Objectives
 
 By the end of today, you will:
-- **Kubernetes Operators**: Understand the concept of Kubernetes Operators.
-- **Use Cases**: Explore scenarios where Operators are beneficial.
+- **Amazon EKS**: Gain an understanding of Amazon EKS and its key features.
+- **Practical Experience**: Set up and explore Amazon EKS to deploy and manage Kubernetes clusters.
 
 ## 🚀 Let's Get Started
 
-### Task 1: Kubernetes Operators Overview
-- Read about Kubernetes Operators and their significance in managing applications within Kubernetes clusters.
+### Task 1: Amazon EKS Overview
+- Read about [Amazon EKS](https://aws.amazon.com/eks/) to understand its offerings and benefits.
 
-### Task 2: Operator Frameworks
-- Explore Operator Frameworks such as the [Operator Framework](https://operatorframework.io/) and [Kubebuilder](https://book.kubebuilder.io/).
+### Task 2: Setting Up Amazon EKS
+- Follow Amazon's documentation to set up an Amazon EKS cluster. Deploy a sample application if possible.
 
-### Task 3: Use Cases
-- Research and discover real-world use cases where Kubernetes Operators provide automation and simplification.
+### Task 3: Exploring EKS Features
+- Explore the features of Amazon EKS, such as automatic scaling, managed node groups, and integration with other AWS services.
 
 ### Task 4: Suggested Project
-- If you have a complex application or database, consider building a simple Operator to manage it.
+- Deploy one of your applications or projects on Amazon EKS to gain hands-on experience with this managed Kubernetes service.
 
 ## 🌐 Additional Resources
 
-- [Kubernetes Operators Documentation](https://kubernetes.io/docs/concepts/extend-kubernetes/operator/): Official Kubernetes documentation on Operators.
-- [Kubernetes- Operators](https://youtu.be/VAojjIYVhGk?si=fGO1eOYGkwKwoD8R)
+- [Amazon EKS Documentation](https://docs.aws.amazon.com/eks/latest/userguide/what-is-eks.html): Comprehensive information on Amazon EKS.
+- [Kubernetes- Deploy Application on AWS EKS](https://youtu.be/RRCrY12VY_s?si=l5l9uozkInyGjrWK)
 
-Understanding Kubernetes Operators is a significant step toward managing intricate applications effectively. Tomorrow, we'll continue our exploration of Operators in Part 2.
+Exploring Amazon EKS provides valuable insights into using Kubernetes on AWS. Tomorrow, we'll continue our journey by exploring Azure Kubernetes Service (AKS).
 
 [← Previous Day](../Day26/README.md) | [Next Day →](../Day28/README.md)

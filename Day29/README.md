@@ -1,37 +1,35 @@
-# Day 29: Kubernetes Security Best Practices
+# Day 29: Exploring Google GKE (Google Kubernetes Engine)
 [![LinkedIn](https://img.shields.io/badge/Connect%20with%20me%20on-LinkedIn-blue.svg)](https://www.linkedin.com/in/aman-devops/)
 [![GitHub](https://img.shields.io/github/stars/AmanPathak-DevOps.svg?style=social)](https://github.com/AmanPathak-DevOps)
 [![GitHub stars](https://img.shields.io/github/stars/AmanPathak-DevOps/30DaysOfKubernetes)](https://github.com/AmanPathak-DevOps/30DaysOfKubernetes/stargazers)
 
-Welcome to Day 29 of the Kubernetes 30-Day Learning Challenge! 🚀 Today, you'll dive into Kubernetes security best practices, including Pod security policies and Role-Based Access Control (RBAC).
+Welcome to Day 29 of the Kubernetes 30-Day Learning Challenge! 🚀 Today, you'll discover Google Kubernetes Engine (GKE), Google Cloud's managed Kubernetes service, and explore its capabilities.
 
 ## 📋 Learning Objectives
 
 By the end of today, you will:
-- **Kubernetes Security**: Understand the importance of securing your Kubernetes cluster.
-- **Pod Security Policies**: Learn how to implement Pod security policies.
-- **RBAC**: Explore Role-Based Access Control (RBAC) for cluster security.
+- **Google GKE**: Understand what Google GKE is and why it's a popular choice for Kubernetes.
+- **Key Features**: Explore the key features of Google GKE for Kubernetes cluster management.
 
 ## 🚀 Let's Get Started
 
-### Task 1: Kubernetes Security Overview
-- Research and understand the key security considerations for Kubernetes clusters.
+### Task 1: Google GKE Overview
+- Explore the [Google Kubernetes Engine documentation](https://cloud.google.com/kubernetes-engine) to learn about Google GKE and its offerings.
 
-### Task 2: Implement Pod Security Policies
-- Learn about Pod security policies and implement them in your cluster.
+### Task 2: Setting Up Google GKE
+- Follow Google's documentation to set up a Google GKE cluster. Deploy a sample application if available.
 
-### Task 3: Role-Based Access Control (RBAC)
-- Dive into RBAC and set up role-based access control for your Kubernetes cluster.
+### Task 3: Exploring Google GKE Features
+- Delve into the features of Google GKE, including seamless integration with Google Cloud services, auto-upgrades, and logging.
 
 ### Task 4: Suggested Project
-- Review and enhance the security of your existing Kubernetes cluster using security best practices.
+- Deploy one of your applications or projects on Google GKE to gain hands-on experience with this managed Kubernetes service.
 
 ## 🌐 Additional Resources
 
-- [Kubernetes Security Best Practices](https://kubernetes.io/docs/concepts/security/): Official Kubernetes documentation on security best practices.
-- [Kubernetes Security Best Practices Video](https://youtu.be/oBf5lrmquYI?si=CqXNUUKwSuwDV0Da)
-- [Kubernetes RBAC](https://youtu.be/qp41IEhu6gM?si=hC8zTdooj1_h1nwo)
+- [Google Kubernetes Engine Documentation](https://cloud.google.com/kubernetes-engine/docs): Comprehensive information on Google GKE.
+- [Kubernetes- Deploy Application on GKE](https://youtu.be/jW_-KZCjsm0?si=o2Zvk6SmdAwk0ak6)
 
-Securing your Kubernetes cluster is crucial for safe operations. Tomorrow, we'll embark on our capstone project, bringing together all that you've learned in the past 30 days.
+Exploring Google GKE is essential for those looking to leverage Google Cloud's ecosystem for Kubernetes workloads. Tomorrow, we'll delve into advanced Kubernetes networking concepts.
 
-[← Previous Day](../Day28/README.md) | [Last Day →](../Day30/README.md)
+[← Previous Day](../Day28/README.md) | [Next Day →](../Day30/README.md)

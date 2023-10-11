@@ -1,35 +1,36 @@
-# Day 23: Exploring Amazon EKS (Amazon Elastic Kubernetes Service)
+# Day 23: StatefulSets and DaemonSets
 [![LinkedIn](https://img.shields.io/badge/Connect%20with%20me%20on-LinkedIn-blue.svg)](https://www.linkedin.com/in/aman-devops/)
 [![GitHub](https://img.shields.io/github/stars/AmanPathak-DevOps.svg?style=social)](https://github.com/AmanPathak-DevOps)
 [![GitHub stars](https://img.shields.io/github/stars/AmanPathak-DevOps/30DaysOfKubernetes)](https://github.com/AmanPathak-DevOps/30DaysOfKubernetes/stargazers)
 
-Welcome to Day 23 of the Kubernetes 30-Day Learning Challenge! 🚀 Today, you'll get hands-on experience with Amazon Elastic Kubernetes Service (Amazon EKS), Amazon's managed Kubernetes service.
+Welcome to Day 23 of the Kubernetes 30-Day Learning Challenge! 🚀 Today, you'll continue your exploration of StatefulSets and learn about DaemonSets, which are used for running a copy of a Pod on every node in the cluster.
 
 ## 📋 Learning Objectives
 
 By the end of today, you will:
-- **Amazon EKS**: Gain an understanding of Amazon EKS and its key features.
-- **Practical Experience**: Set up and explore Amazon EKS to deploy and manage Kubernetes clusters.
+- **DaemonSets**: Understand what DaemonSets are and when to use them.
+- **Comparing StatefulSets and DaemonSets**: Explore the differences between StatefulSets and DaemonSets.
 
 ## 🚀 Let's Get Started
 
-### Task 1: Amazon EKS Overview
-- Read about [Amazon EKS](https://aws.amazon.com/eks/) to understand its offerings and benefits.
+### Task 1: DaemonSets Overview
+- Explore the [Kubernetes DaemonSets documentation](https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/) to understand the role of DaemonSets in Kubernetes.
 
-### Task 2: Setting Up Amazon EKS
-- Follow Amazon's documentation to set up an Amazon EKS cluster. Deploy a sample application if possible.
+### Task 2: Deploying DaemonSets
+- Create a DaemonSet within your Kubernetes cluster to run a copy of a Pod on every node. Observe its behavior.
 
-### Task 3: Exploring EKS Features
-- Explore the features of Amazon EKS, such as automatic scaling, managed node groups, and integration with other AWS services.
+### Task 3: StatefulSets vs. DaemonSets
+- Compare and contrast the use cases for StatefulSets and DaemonSets. When would you choose one over the other?
 
 ### Task 4: Suggested Project
-- Deploy one of your applications or projects on Amazon EKS to gain hands-on experience with this managed Kubernetes service.
+- Apply DaemonSets to a scenario in which you need a Pod to run on every node, such as a monitoring agent or a log collector.
 
 ## 🌐 Additional Resources
 
-- [Amazon EKS Documentation](https://docs.aws.amazon.com/eks/latest/userguide/what-is-eks.html): Comprehensive information on Amazon EKS.
-- [Kubernetes- Deploy Application on AWS EKS](https://youtu.be/RRCrY12VY_s?si=l5l9uozkInyGjrWK)
+- [Kubernetes Official Documentation - DaemonSets](https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/): Detailed information on DaemonSets.
+- [Kubernetes- DaemonSets and StatefulSets](https://youtu.be/Vrxr-7rjkvM?si=FBLclw8sYXiiw-3C)
+- [Kubernetes- DaemonSets](https://youtu.be/cdY67JqGbIc?si=sVPoahOieP2bnYrK)
 
-Exploring Amazon EKS provides valuable insights into using Kubernetes on AWS. Tomorrow, we'll continue our journey by exploring Azure Kubernetes Service (AKS).
+Understanding StatefulsSets and DaemonSets which helps to save time. Tomorrow, we'll explore Kubernetes garbage collection.
 
 [← Previous Day](../Day22/README.md) | [Next Day →](../Day24/README.md)

@@ -1,35 +1,42 @@
-# Day 13: Labels and Selectors
+# Day 13: Volumes, Persistent Volumes, and Persistent Volume Claims (PVC)
 [![LinkedIn](https://img.shields.io/badge/Connect%20with%20me%20on-LinkedIn-blue.svg)](https://www.linkedin.com/in/aman-devops/)
 [![GitHub](https://img.shields.io/github/stars/AmanPathak-DevOps.svg?style=social)](https://github.com/AmanPathak-DevOps)
 [![GitHub stars](https://img.shields.io/github/stars/AmanPathak-DevOps/30DaysOfKubernetes)](https://github.com/AmanPathak-DevOps/30DaysOfKubernetes/stargazers)
 
-Welcome to Day 13 of the Kubernetes 30-Day Learning Challenge! 🚀 Today, you'll learn about the importance of labels and selectors in Kubernetes for resource categorization and selection.
+Welcome to Day 13 of the Kubernetes 30-Day Learning Challenge! 🚀 Today, you'll gain insights into Kubernetes volumes, persistent volumes (PV), and persistent volume claims (PVC), which are essential for data storage in Kubernetes.
 
 ## 📋 Learning Objectives
 
 By the end of today, you will:
-- **Labels and Selectors**: Understand how to use labels to categorize resources and selectors to filter resources based on labels.
+- **Kubernetes Volumes**: Understand Kubernetes volumes and how they handle data storage for pods.
+- **Persistent Volumes (PV)**: Explore the concept of Persistent Volumes and how they abstract physical storage.
+- **Persistent Volume Claims (PVC)**: Learn how to request and use storage resources using Persistent Volume Claims.
 
 ## 🚀 Let's Get Started
 
-### Task 1: Label Your Resources
-- Select a set of resources in your Kubernetes cluster (e.g., Pods, Services, Deployments) and label them with meaningful key-value pairs.
+### Task 1: Kubernetes Volumes
+- Dive into the [Kubernetes Volumes documentation](https://kubernetes.io/docs/concepts/storage/volumes/) to understand how volumes provide pod-level data storage.
 
-### Task 2: Select Resources with Label Selectors
-- Use label selectors to filter and query resources with specific labels. Practice different label selector options.
+### Task 2: Persistent Volumes (PV)
+- Explore [Kubernetes Persistent Volumes (PV)](https://kubernetes.io/docs/concepts/storage/persistent-volumes/) and learn how they abstract physical storage resources.
 
-### Task 3: Demonstrate Label-Based Resource Management
-- Create scenarios where labels and selectors would be useful in resource management, such as routing traffic or applying policies.
+### Task 3: Persistent Volume Claims (PVC)
+- Understand [Kubernetes Persistent Volume Claims (PVC)](https://kubernetes.io/docs/concepts/storage/persistent-volumes/#expanding-persistent-volumes-claims) and how they enable pod-specific storage requests.
 
-### Task 4: Suggested Project
-- Design and implement a labeling strategy for your Kubernetes applications to improve resource management and organization.
+### Task 4: Dynamic Provisioning
+- Experiment with dynamic provisioning of Persistent Volumes using storage classes in your Kubernetes cluster.
+
+### Task 5: Suggested Project
+- Enhance one of your applications by using Persistent Volume Claims to manage data storage effectively.
 
 ## 🌐 Additional Resources
 
-- [Kubernetes Official Documentation - Labels and Selectors](https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/): Detailed information on using labels and selectors in Kubernetes.
-- [Kubernetes- Labels and Selectors in Hindi](https://youtu.be/dQSQELeC2A4?si=-92tuwJVci9RJ2L6)
-- [Kubernetes- Labels and Selectors in English](https://youtu.be/zsovXtOFhDE?si=nySmuMlkS22zLg2F)
+- [Kubernetes Official Documentation - Volumes](https://kubernetes.io/docs/concepts/storage/volumes/): Detailed information on Kubernetes Volumes.
+- [Kubernetes Official Documentation - Persistent Volumes](https://kubernetes.io/docs/concepts/storage/persistent-volumes/): Detailed information on Persistent Volumes (PV).
+- [Kubernetes Official Documentation - Persistent Volume Claims](https://kubernetes.io/docs/concepts/storage/persistent-volumes/#expanding-persistent-volumes-claims): Detailed information on Persistent Volume Claims (PVC).
+- [Kubernetes- Volumes, Persistent Volumes and Persistent Volume Claims in English](https://youtu.be/0swOh5C3OVM?si=ADTl9-5KsmYf7-Ro)
+- [Kubernetes- Volumes, Persistent Volumes and Persistent Volume Claims in Hindi](https://youtu.be/9zjGOCb-6As?si=ShwjUSYQsqV8NLP8)
 
-Labels and selectors are powerful tools for organizing and managing resources in a Kubernetes cluster. Tomorrow, we'll explore ReplicationSets and Controllers.
+Understanding Kubernetes storage concepts is crucial for managing data in your applications effectively. Tomorrow, we'll delve into ConfigMaps and Secrets.
 
 [← Previous Day](../Day12/README.md) | [Next Day →](../Day14/README.md)

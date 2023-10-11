@@ -1,36 +1,35 @@
-# Day 26: Advanced Kubernetes Networking
+# Day 26: Operators and Helm (Part 2)
 [![LinkedIn](https://img.shields.io/badge/Connect%20with%20me%20on-LinkedIn-blue.svg)](https://www.linkedin.com/in/aman-devops/)
 [![GitHub](https://img.shields.io/github/stars/AmanPathak-DevOps.svg?style=social)](https://github.com/AmanPathak-DevOps)
 [![GitHub stars](https://img.shields.io/github/stars/AmanPathak-DevOps/30DaysOfKubernetes)](https://github.com/AmanPathak-DevOps/30DaysOfKubernetes/stargazers)
 
-Welcome to Day 26 of the Kubernetes 30-Day Learning Challenge! 🚀 Today, we'll delve into advanced Kubernetes networking concepts and solutions, including Container Network Interface (CNI) and Calico.
+Welcome to Day 26 of the Kubernetes 30-Day Learning Challenge! 🚀 Today, you'll continue your exploration of Kubernetes Operators and dive into Helm for simplifying application deployments.
 
 ## 📋 Learning Objectives
 
 By the end of today, you will:
-- **CNI and Calico**: Understand advanced Kubernetes networking concepts.
-- **Use Cases**: Explore real-world use cases for advanced networking solutions.
+- **Helm**: Understand what Helm is and its role in Kubernetes.
+- **Kubernetes Operators**: Continue exploring Kubernetes Operators.
 
 ## 🚀 Let's Get Started
 
-### Task 1: CNI and Calico Overview
-- Research and read about Container Network Interface (CNI) and [Calico](https://www.projectcalico.org/), a popular networking solution for Kubernetes.
+### Task 1: Helm Overview
+- Explore Helm, a package manager for Kubernetes applications, by visiting the [Helm website](https://helm.sh/).
 
-### Task 2: Setting Up Calico
-- If you have a Kubernetes cluster, try setting up Calico as your network plugin. Alternatively, use Minikube or another cluster for experimentation.
+### Task 2: Helm Charts
+- Learn about Helm charts, which are packages of pre-configured Kubernetes resources.
 
-### Task 3: Exploring Advanced Networking
-- Explore advanced networking topics, such as network policies, security, and observability with Calico.
+### Task 3: Helm in Action
+- Use Helm to deploy a sample application or service to your Kubernetes cluster.
 
 ### Task 4: Suggested Project
-- Implement network policies using Calico in your Kubernetes cluster to secure communication between pods.
+- Create a Helm chart for one of your applications to simplify its deployment on Kubernetes.
 
 ## 🌐 Additional Resources
 
-- [Calico Documentation](https://docs.projectcalico.org/): In-depth information on Calico and Kubernetes networking.
-- [Kubernetes Networking](https://youtu.be/vOo__3GqyxM?si=_r7Li9GWqTeGRHkg)
-- [Kubernetes- Networing in Hindi](https://youtu.be/J2sUlm2cwQk?si=9JNS6nPo6kuzZ6UR)
+- [Helm Documentation](https://helm.sh/docs/): Comprehensive documentation for Helm.
+- [Helm](https://youtu.be/-ykwb1d0DXU?si=OQrM8q4kDAfGTVkJ)
 
-Understanding advanced networking is crucial for managing complex applications in Kubernetes. Tomorrow, we'll dive into Kubernetes Operators.
+Helm is a valuable tool for managing Kubernetes applications. Tomorrow, you'll gain hands-on experience with Amazon Elastic Kubernetes Service (EKS).
 
 [← Previous Day](../Day25/README.md) | [Next Day →](../Day27/README.md)

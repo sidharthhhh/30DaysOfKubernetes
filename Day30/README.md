@@ -24,7 +24,7 @@ By the end of today, you will:
 - [Jenkins Documentation](https://www.jenkins.io/doc/)
 - [SonarQube Documentation](https://docs.sonarqube.org/latest/)
 - [ArgoCD Documentation](https://argoproj.github.io/argo-cd/)
-- [JFrog Artifactory Documentation](https://www.jfrog.com/confluence/)
+- [JFrog Artifactory Documentation](https://jfrog.com/help/r/jfrog-artifactory-documentation)
 
 ## 💡 Project Ideas
 

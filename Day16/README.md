@@ -1,42 +1,32 @@
-# Day 16: Volumes, Persistent Volumes, and Persistent Volume Claims (PVC)
+# Day 16: Init Containers
 [![LinkedIn](https://img.shields.io/badge/Connect%20with%20me%20on-LinkedIn-blue.svg)](https://www.linkedin.com/in/aman-devops/)
 [![GitHub](https://img.shields.io/github/stars/AmanPathak-DevOps.svg?style=social)](https://github.com/AmanPathak-DevOps)
 [![GitHub stars](https://img.shields.io/github/stars/AmanPathak-DevOps/30DaysOfKubernetes)](https://github.com/AmanPathak-DevOps/30DaysOfKubernetes/stargazers)
 
-Welcome to Day 16 of the Kubernetes 30-Day Learning Challenge! 🚀 Today, you'll gain insights into Kubernetes volumes, persistent volumes (PV), and persistent volume claims (PVC), which are essential for data storage in Kubernetes.
+Welcome to Day 16 of the Kubernetes 30-Day Learning Challenge! 🚀 Today, you'll understand the role of Init Containers in preparing application containers.
 
 ## 📋 Learning Objectives
 
 By the end of today, you will:
-- **Kubernetes Volumes**: Understand Kubernetes volumes and how they handle data storage for pods.
-- **Persistent Volumes (PV)**: Explore the concept of Persistent Volumes and how they abstract physical storage.
-- **Persistent Volume Claims (PVC)**: Learn how to request and use storage resources using Persistent Volume Claims.
+- **Init Containers**: Learn about Init Containers and their significance in containerized applications.
 
 ## 🚀 Let's Get Started
 
-### Task 1: Kubernetes Volumes
-- Dive into the [Kubernetes Volumes documentation](https://kubernetes.io/docs/concepts/storage/volumes/) to understand how volumes provide pod-level data storage.
+### Task 1: Init Containers
+- Explore the [Kubernetes Init Containers documentation](https://kubernetes.io/docs/concepts/workloads/pods/init-containers/) to understand what Init Containers are and how they work.
+- Learn how to define and use Init Containers in a Pod specification.
 
-### Task 2: Persistent Volumes (PV)
-- Explore [Kubernetes Persistent Volumes (PV)](https://kubernetes.io/docs/concepts/storage/persistent-volumes/) and learn how they abstract physical storage resources.
+### Task 2: Use Cases
+- Study real-world use cases for Init Containers. These include preparing application configuration, setting up databases, or downloading necessary files before the main application starts.
 
-### Task 3: Persistent Volume Claims (PVC)
-- Understand [Kubernetes Persistent Volume Claims (PVC)](https://kubernetes.io/docs/concepts/storage/persistent-volume-claims/) and how they enable pod-specific storage requests.
-
-### Task 4: Dynamic Provisioning
-- Experiment with dynamic provisioning of Persistent Volumes using storage classes in your Kubernetes cluster.
-
-### Task 5: Suggested Project
-- Enhance one of your applications by using Persistent Volume Claims to manage data storage effectively.
+### Task 3: Suggested Project
+- Implement an Init Container in a Kubernetes Pod. Create a scenario where an Init Container sets up environment variables for the main application.
 
 ## 🌐 Additional Resources
 
-- [Kubernetes Official Documentation - Volumes](https://kubernetes.io/docs/concepts/storage/volumes/): Detailed information on Kubernetes Volumes.
-- [Kubernetes Official Documentation - Persistent Volumes](https://kubernetes.io/docs/concepts/storage/persistent-volumes/): Detailed information on Persistent Volumes (PV).
-- [Kubernetes Official Documentation - Persistent Volume Claims](https://kubernetes.io/docs/concepts/storage/persistent-volume-claims/): Detailed information on Persistent Volume Claims (PVC).
-- [Kubernetes- Volumes, Persistent Volumes and Persistent Volume Claims in English](https://youtu.be/0swOh5C3OVM?si=ADTl9-5KsmYf7-Ro)
-- [Kubernetes- Volumes, Persistent Volumes and Persistent Volume Claims in Hindi](https://youtu.be/9zjGOCb-6As?si=ShwjUSYQsqV8NLP8)
+- [Kubernetes Official Documentation - Init Containers](https://kubernetes.io/docs/concepts/workloads/pods/init-containers/): In-depth information on Kubernetes Init Containers.
+- [Kubernetes Job, Init Container and Pod lifecycle in Hindi](https://youtu.be/BqHAoaXbz1A?si=Fd-mU-jNzaM2Fb7G)
 
-Understanding Kubernetes storage concepts is crucial for managing data in your applications effectively. Tomorrow, we'll dive into Ingress and Network Policies.
+Init Containers play a crucial role in ensuring that your application containers start with the necessary prerequisites. Tomorrow, we'll dive into the Pod lifecycle in Kubernetes.
 
 [← Previous Day](../Day15/README.md) | [Next Day →](../Day17/README.md)
